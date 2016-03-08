@@ -4,7 +4,10 @@ git でブランチの作成　"user-profile"
 
 モデルの作成　profileとaddressを追加してマイグレーション
 
-
-
 rails generate migrationコマンドまとめ
 http://qiita.com/zaru/items/cde2c46b6126867a1a64
+
+_header.html.erbにedit画面へのリンクを貼る
+
+
+
