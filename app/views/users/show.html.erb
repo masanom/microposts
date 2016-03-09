@@ -2,4 +2,7 @@
     <%= gravatar_for @user %>
     <%= @user.name %>
 </h1>
-<p><% link_to 'ユーザー情報を編集する', edit_user_path(@user.id) %></p>
+<p><%= @user.email %></p>
+<p><%= @user.address %></p>
+<p><%= @user.profile %></p>
+<p><%= link_to 'ユーザー情報を編集する', edit_user_path(@user.id) %></p>
