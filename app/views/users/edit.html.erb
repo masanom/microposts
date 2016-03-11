@@ -7,22 +7,22 @@
             <%= render 'shared/error_messages', object: f.object %>
         
             <%= f.label :name %>
-            <%= f.text_field :name %>
+            <%= f.text_field :name, class: 'form-control' %>
             
             <%= f.label :email %>
-            <%= f.text_field :email %>
+            <%= f.text_field :email, class: 'form-control' %>
             
             <%= f.label :address %>
-            <%= f.text_area :address %>
+            <%= f.text_area :address, class: 'form-control' %>
 
             <%= f.label :profile %>
-            <%= f.text_area :profile %>
+            <%= f.text_area :profile, class: 'form-control' %>
 
             <%= f.label :password %>
-            <%= f.password_field :password %>
+            <%= f.password_field :password, class: 'form-control' %>
             
             <%= f.label :password_confirmaition, "Conformation" %>
-            <%= f.password_field :password_confirmaition %>
+            <%= f.password_field :password_confirmaition, class: 'form-control' %>
 
             <%= f.submit "Edit my account", class: "btn btn-large btn-primary" %>
         <% end %>
