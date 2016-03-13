@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20160312071121) do
 
   create_table "microposts", force: :cascade do |t|
     t.integer  "user_id"
-    t.text     "context"
+    t.text     "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -10,4 +10,8 @@ http://qiita.com/zaru/items/cde2c46b6126867a1a64
 _header.html.erbにedit画面へのリンクを貼る
 
 
+マイグレートやり直し
+rake db:migrate:redo STEP=1
 
+DBマイグレートリセット
+rake db:reset`
