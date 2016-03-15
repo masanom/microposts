@@ -14,4 +14,16 @@ _header.html.erbにedit画面へのリンクを貼る
 rake db:migrate:redo STEP=1
 
 DBマイグレートリセット
-rake db:reset`
+rake db:reset
+
+
+バンドルを固定にする
+
+vender以下にbundle install
+bundle install —path vendor/bundle
+
+サーバ起動は下記コマンド
+bundle exec rails s
+
+マイグレートは下記コマンド
+bundle exec rake db:migrate
