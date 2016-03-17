@@ -15,7 +15,9 @@
     <h3><%= @title %></h3>
     <% if @users.any? %>
       <div class="users follow">
+        <%= page_entries_info @users %>
         <%= render @users %>
+        <%= paginate @users %>
       </div>
     <% end %>
   </div>
